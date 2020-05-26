@@ -11,14 +11,29 @@ package clasearreglos;
  */
 public class persona {
     private int edad;
-
+private String apellidos;
+private int codigo;
     
     private String nombre;
     public persona(){
         edad=0;
         nombre=null;
+        apellidos = null;
+        codigo = 0;
+        
     }
-    
+    public void setApellidos(String apellidos){
+    this.apellidos = apellidos;
+}
+    public String getApellidos(){
+        return apellidos;
+    }
+    public void setCodigo(int codigo){
+        this.codigo = codigo;
+    }
+    public int getCodigo(){
+        return codigo;
+    }
     public void setNombre(String n){
         nombre=n;
     }
@@ -35,7 +50,9 @@ public class persona {
     
     public void mostrar(){
         System.out.println("Nombre -> "+getNombre());
+        System.out.println("Apellidos -> "+getApellidos());
         System.out.println("Edad -> "+getEdad());
+        System.out.println("Código -> "+getCodigo());
                 
     }
     

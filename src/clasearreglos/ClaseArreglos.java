@@ -24,60 +24,7 @@ public class ClaseArreglos {
         ArreglosMulti AM=new ArreglosMulti(3,4);
         AM.menu();
         // TODO code application logic here
-/*        ClaseArreglos a = new ClaseArreglos();
-        
- a.inicializaarreglo(0,10);
- 
- Scanner sc = new Scanner(System.in);
- 
- System.out.println("Ingrese un valor para agregar al arreglo ");
- int v = sc.nextInt();
- a.agregar(v);
- System.out.println("Ingrese un valor para agregar al arreglo ");
- v = sc.nextInt();
- a.agregar(v);
- System.out.println("Ingrese la cantidad de elementos que desea ver: ");
- int cant = sc.nextInt();
- a.muestraArreglo(cant);
- System.out.println("Indice--> "+a.indice);
- 
-        System.out.println("Buscar elemento");
-        System.out.println("ingresa el elemento a buscar");
-        v = sc.nextInt();
-        Integer vI=a.buscar(v);
-        if(vI!=null){
-            System.out.println("Elemento encontrado "+vI);
-        }else{
-            System.out.println("Elemento no encontrado");
-        }
- 
-        System.out.println("Eliminar elemento");
-        System.out.println("ingresa el elemento a Eliminar");
-        v = sc.nextInt();
-        
-        if(a.Eliminar(v)){
-            System.out.println("Elemento "+v+" Eliminado");
-        }else{
-            System.out.println("Elemento no encontrado");
-        }
-         System.out.println("Modificar elemento");
-        System.out.println("ingresa el elemento a Modificar");
-        v = sc.nextInt();
-        System.out.println("ingresa el elemento Nuevo");
-        int vx = sc.nextInt();
-        
-        if(a.modificar(v,vx)){
-            System.out.println("Elemento "+v+" modificado por "+vx);
-        }else{
-            System.out.println("Elemento no encontrado");
-        }
-        a.muestraArreglo(cant);
-    }
-     public ClaseArreglos(){
- //int [] Aent = {2,3,45,12,10,12,11,13,45,34};
- this.Aenteros=new persona[10];
- this.Aenteros[1].setNombre("Alejandro Medina");
- */
+
 }
      public void menu(){
          
